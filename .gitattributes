@@ -2,5 +2,5 @@
 fill_*.py linguist-generated
 clean_products.py linguist-generated
 
-# Make sure SQL is counted (optional, but explicit)
+# Make sure SQL is counted
 *.sql linguist-language=SQL
