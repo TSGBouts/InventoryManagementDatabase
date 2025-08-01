@@ -1,0 +1,57 @@
+Python virtual environments & bytecode
+
+.venv/
+ENV/
+venv/
+pycache/
+*.py[cod]
+
+Editor & IDE settings
+
+.idea/
+.vscode/
+*.swp
+
+OS clutter
+
+.DS_Store
+Thumbs.db
+
+Build / dist artifacts
+
+build/
+dist/
+*.egg-info/
+
+Coverage / test output
+
+.coverage
+htmlcov/
+pytest_cache/
+
+MySQL dumps or temporary SQL scratch files
+
+*.sql~
+
+Notebooks (if any) checkpoints
+
+.ipynb_checkpoints/
+
+Large raw data files – keep the main Kaggle extract but ignore other XLS/XLSX
+
+*.xlsx
+!online_retail_II.xlsx
+
+CSVs generated during ETL that you don't want in VCS
+
+products.csv
+*.csv~
+
+Logs
+
+*.log
+
+Local env files
+
+.env
+.env.*
