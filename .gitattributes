@@ -1,0 +1,2 @@
+# Treat every Python file as “vendored” so Linguist ignores them
+*.py linguist-vendored
