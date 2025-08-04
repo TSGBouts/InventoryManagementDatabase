@@ -1,7 +1,6 @@
 import datetime
 import random
 import sys
-
 import mysql.connector
 
 # ── CONFIG ────────────────────────────────────────────────────────────────
